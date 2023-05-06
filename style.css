@@ -1,0 +1,138 @@
+*{
+
+    background:#E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+.logo{
+
+    padding-top: 10px;
+    margin-left: 10px;
+
+}
+main{
+
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;    
+}
+.text-area{
+    border: none;
+    color:rgb(44, 159, 226);
+    margin-top: 90px;
+    text-transform: lowercase;
+    display:flex;
+    
+
+
+}
+::placeholder{color: rgb(8, 105, 216);}
+.text-area:focus{
+
+    outline: none;
+}
+.mensaje{
+    background: white;
+    background-image: url(peko2.gif);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color:#0A3871;
+    margin-left: 88PX;
+    margin-top: 0PX;
+    padding-left: 20px;
+    position: relative;
+    width: 450px;
+    height: 650px;
+
+}
+.mesaje:focus{
+
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 15px;
+}
+button:hover{
+    opacity: 90%;
+    background-color: rgb(82, 184, 153);
+
+}
+.encriptar{
+
+
+    background-color:#003688;
+    border:1px solid #0A3871;
+    border-radius: 24px;
+    color: #E5E5E5;
+    cursor: pointer;
+    height: 67px;
+    width: 300px;
+
+}
+.desencriptar{
+    
+    background-color:#004f8f;
+    border:1px solid #0A3871;
+    border-radius: 24px;
+    color: #E5E5E5;
+    cursor: pointer;
+    margin-left: 30px;
+    height: 67px;
+    width: 328px;
+
+
+
+
+}
+.copiar{
+
+
+    border:1px solid #0A3871;
+    border-radius: 24px;
+    color: #003172;
+    cursor: pointer;
+    height: 67px;
+    width: 206px;
+    margin-left:258px ;
+    margin-top: 10px; ;
+    
+
+
+}
+.informacion{
+
+    color:darkgrey;
+    font-size: 18px;
+
+}
+@media only screen and (max-width: 400px) {
+	
+        .mensaje{
+            position:absolute;
+            flex-wrap: wrap;
+            display: grid;
+            position: relative;
+            margin-bottom: initial;
+            margin-top: 865px;
+            margin-left: -387px;
+        
+
+    }
+    .copiar{
+
+        display:inline-flex;
+        position: absolute;
+    
+
+
+
+    }
+
+	}
+		
+	
